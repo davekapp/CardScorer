@@ -1,0 +1,22 @@
+This humble little card scoring program is made by David Kapp.
+It has no pretty interface, it's just a terminal program. Aww.
+
+To use it, copy all three files into one directory, make scorer.rb executable,
+and run it.
+
+Here's some assumptions I made about scoring, as there are a few spots in the rules that aren't
+100% clear.
+
+1) If you have one of a given land type, you can get full points for the associated resource
+even if you have one or more non-ideal lands. EG: If you have a plains, you can get full points
+for your cattle (assuming other restrictions are met) even if you have a mountain and/or forest.
+
+2) If you have one or more mountains, all of your horses and burros will be scored at their adjusted values.
+This happens even if you have non-mountain land types. Why? I'm pretending you can use your resources on ideal
+land types, but if you have a horse, you're trying to use it in your mountains even if you also have plains.
+(Yeah, this is a stretch, but bear with me please.)
+
+3) Burros are worth double points if you have mountains for _all_ pioneer types. The rules once said only for
+prospectors, but they were later changed to be for everyone. I went with the newest rules.
+
+4) Half-value cards are individually rounded up. I did this to be nice. :)
