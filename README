@@ -1,6 +1,8 @@
 This humble little card scoring program is made by David Kapp.
 It has no pretty interface, it's just a terminal program. Aww.
 
+I wrote this whole thing in like two hours so it's not pretty. It needs tests and such and the object-orientedness of it is questionable. Given the time constraints of the hackfest I wrote it at, I don't think it's too awful though. :)
+
 To use it, copy all three files into one directory, make scorer.rb executable,
 and run it.
 
